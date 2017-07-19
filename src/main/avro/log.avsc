@@ -1,0 +1,20 @@
+[
+  /**
+   * A message representing a log statement.
+   */
+  {
+    "name": "LogMessage",
+    "namespace": "com.timrobertson",
+    "type": "record",
+    "fields": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "payload",
+        "type": "string"
+      }
+    ]
+  }
+]
